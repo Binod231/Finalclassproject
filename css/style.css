@@ -70,7 +70,7 @@ align-items: center;
     border-radius: 9px;
 }
 .background{
-    background: rgba(0, 0, 0, 0.7) url("https://wallpaper.dog/large/11015463.jpg");
+    background: rgba(0, 0, 0, 0.5) url("https://wallpaper.dog/large/11015463.jpg");
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -127,6 +127,11 @@ font-size: 36px;
     cursor: pointer;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
+}
+.btn a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
 }
 .btn-sm{
     padding: 6px 10px;

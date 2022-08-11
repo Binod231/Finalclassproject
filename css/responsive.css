@@ -6,13 +6,15 @@
     .navbar{
         flex-direction: column;
         transition: all 0.7s ease-out;
-        height: 580px;
+        height: 720px;
+        /* height: 100%; */
     }
     .rightnav{
         text-align: center;
     }
     #search{
         width: 100%;
+        margin-left: 30px;
     }
     .burger{
         display: block;
@@ -31,10 +33,93 @@
         flex-direction: column-reverse;
     }
 .text-small{
-    text-align: center;
+    text-align: justify;
+    margin-left: 30px;
 }
 .text-big{
     text-align: center;
+    margin-left: 12px;
+    font-size: x-large;
+}
+.button{
+    text-align: center;
+}
+.secondhalf img{
+    width: 150%;
+    text-align: center;
+    padding: 25px 0;
+border: 4px;
+display: block;
+margin: auto;
+
+}
+.paras{
+    padding: 0px;
+    text-align: center;
+   
+
+
+}
+.button{
+    margin: auto;
+}
+.logo{
+    
+    /* width: fit-content; */
+    width: 30vh;
+}
+.thumbnail img{
+    width: 350px;
+}
+#search{
+    margin: auto;
+}
+}
+
+
+
+@media only screen and (max-width: 410px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 520px;
+        background-color: aliceblue;
+        /* height: 100%; */
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        /* width: 100%; */
+        margin-left: 30px;
+    }
+    .burger{
+        display: block;
+       background-color: #000;
+        
+    }
+    .h-nav-resp{
+        height: 70px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+.text-small{
+   margin-top: 10px;
+   text-align: center;
+}
+.text-big{
+   font-size: larger;
 }
 .buttons{
     text-align: center;
@@ -58,6 +143,19 @@ margin: auto;
 }
 .logo{
     
-    width: fit-content;
+    /* width: fit-content; */
+    width: 250px;
+}
+.thumbnail img{
+    width: 350px;
+}
+#search{
+    margin: auto;
+}
+.sectionTag{
+    text-align: center;
+}
+.sectionSubTag{
+    text-align: justify;
 }
 }
